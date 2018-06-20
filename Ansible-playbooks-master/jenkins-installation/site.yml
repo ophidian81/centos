@@ -1,4 +1,5 @@
-- hosts: localhost
+- hosts: host1
+  user: root
   roles:
     - jenkins
   tags: jenkins
